@@ -17,3 +17,13 @@ test <- read_csv("test.csv", na = c("?"," ")) %>%
   clean_names()
 ```
 
+```{r}
+set.seed(112)
+
+test %>% 
+  arrange(y)
+```
+
+
+
+
